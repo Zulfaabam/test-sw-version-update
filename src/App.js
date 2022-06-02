@@ -58,6 +58,7 @@ function App() {
         >
           <img src={"/pokeball512.png"} className="App-logo" alt="logo" />
           <img src={"/pokeball512.png"} className="App-logo" alt="logo" />
+          <img src={"/pokeball512.png"} className="App-logo" alt="logo" />
         </div>
         <p>
           isServiceWorkerInitialized:{" "}
