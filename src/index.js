@@ -21,7 +21,7 @@ ReactDOM.render(
 // unregister() to register() below. Note this comes with some pitfalls.
 // Learn more about service workers: https://bit.ly/CRA-PWA
 serviceWorker.register({
-  // onSuccess: () => store.dispatch({ type: SW_INIT }),
+  onSuccess: () => store.dispatch({ type: SW_INIT }),
   onUpdate: (registration) =>
     store.dispatch({ type: SW_UPDATE, payload: registration })
 });

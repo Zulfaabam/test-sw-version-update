@@ -1,7 +1,7 @@
-import React, { useEffect } from 'react';
-import { useDispatch } from 'react-redux';
+import React, { useEffect } from "react";
+import { useDispatch } from "react-redux";
 
-import './Alert.css';
+import "./Alert.css";
 
 const Alert = ({ text, buttonText, type, onClick }) => {
   const dispatch = useDispatch();
@@ -13,7 +13,7 @@ const Alert = ({ text, buttonText, type, onClick }) => {
       }, 6000);
       return () => clearTimeout(timer);
     }
-  }, []);
+  });
 
   return (
     <div className="alert">
